@@ -53,11 +53,12 @@ exports.config = {
     //
     capabilities: [{
         // capabilities for local Appium web tests on an Android Emulator
-        platformName: 'Android',
-        browserName: 'Chrome',
-        'appium:deviceName': 'Android GoogleAPI Emulator',
-        'appium:platformVersion': '12.0',
-        'appium:automationName': 'UiAutomator2'
+        "platformName": "Android",
+        "appium:platformVersion": "16.0",
+        "appium:deviceName": "Medium Phone API 36.0",
+        "appium:automationName": "UiAutomator2",
+        "appium:appPackage": "com.google.android.deskclock",
+        "appium:appActivity": "com.android.deskclock.DeskClock"
     }],
 
     //
